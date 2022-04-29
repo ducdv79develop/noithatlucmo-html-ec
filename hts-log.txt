@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 29 Apr 2022 08:53:14 at https://nd-noi-that.mysapo.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://nd-noi-that.mysapo.net/ -O1 "E:\template\noithat" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:54:59	Error: 	"Not Found" (404) at link https://nd-noi-that.mysapo.net/s (from https://nd-noi-that.mysapo.net/)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/background-vechungtoi.jpg?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/base.scss.css?1638842751333)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/i_menu_1.png?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/style.scss.css?1638842751333)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/i_menu_hover_1.png?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/style.scss.css?1638842751333)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/i_menu_6.png?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/style.scss.css?1638842751333)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/i_menu_7.png?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/style.scss.css?1638842751333)
+08:59:19	Error: 	"Not Found" (404) at link bizweb.dktcdn.net/100/369/704/themes/741072/assets/i_menu_11.png?1621480486681 (from bizweb.dktcdn.net/100/369/704/themes/741072/assets/style.scss.css?1638842751333)
+09:03:15	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): bizweb.dktcdn.net/100/369/704/themes/741072/assets/star.svg
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-7760f90aa26f44311d7e.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-rouen)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-de002900646f8231db7e.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-rouen)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh189ff6c5ada04bfe12b1.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-rouen)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-d026cc8697e371bd28f2.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-rouen)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-AAAA-5bb25dc304a6e2f8bbb7.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-chaumont)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-510bf4d97e8798d9c196.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-chaumont)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/f65a8c982ec4c89a91d5.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-chaumont)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-bd3b108db2d1548f0dc0.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-chaumont)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-18f5a381f8e41eba47f5-1.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-c2ee98fc6d998bc7d288.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/da-chinh-160d70ba2bdfcd8194ce.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/f8034bbc10d9f687afc8.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/bb6dfe77a512434c1a03.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/DA-CHINH-986c12d95fb6b9e8e0a7.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+09:03:15	Error: 	"Not Found" (404) at link https://jangin.vn/wp-content/uploads/2019/10/DA-CHINH-1e20ce9683f965a73ce8.jpg (from https://nd-noi-that.mysapo.net/sofa-thu-gian-dien-bron)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 2 seconds : 333 links scanned, 310 files written (21498959 bytes overall) [15304329 bytes received at 25422 bytes/sec], 8161779 bytes transferred using HTTP compression in 92 files, ratio 20%, 2.5 requests per connection
+(22 errors, 1 warnings, 0 messages)
