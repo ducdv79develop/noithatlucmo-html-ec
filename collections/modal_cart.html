@@ -1,0 +1,118 @@
+<!-- Add to cart -->
+<div class="ajax-load">
+	<span class="loading-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;"
+             xml:space="preserve">
+			<rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+			<rect x="8" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+			<rect x="16" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+				<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+		</svg>
+	</span>
+</div>
+
+<div class="loading awe-popup">
+    <div class="overlay"></div>
+    <div class="loader" title="2">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+             y="0px"
+             width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;"
+             xml:space="preserve">
+			<rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+            <rect x="8" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+            <rect x="16" y="10" width="4" height="10" fill="#333" opacity="0.2">
+				<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s"
+                         repeatCount="indefinite"/>
+			</rect>
+		</svg>
+    </div>
+
+</div>
+
+
+<div class="error-popup awe-popup">
+    <div class="overlay no-background"></div>
+    <div class="popup-inner content">
+        <div class="error-message"></div>
+    </div>
+</div>
+<div id="popup-cart" class="modal fade" role="dialog">
+    <div id="popup-cart-desktop" class="clearfix">
+        <div class="title-popup-cart">
+            <img src="assets/ico_check_.png" alt="ND Nội Thất"/> <span class="your_product">Bạn đã thêm [<span
+                class="cart-popup-name"></span>] vào giỏ hàng thành công ! </span>
+        </div>
+        <div class="wrap_popup">
+            <div class="title-quantity-popup">
+                    <span class="cart_status" onclick="window.location.href='cart.html';">Giỏ hàng của bạn có <span
+                            class="cart-popup-count"></span> sản phẩm </span>
+            </div>
+            <div class="content-popup-cart">
+                <div class="thead-popup">
+                    <div style="width: 55%;" class="text-left">Sản phẩm</div>
+                    <div style="width: 15%;" class="text-center">Đơn giá</div>
+                    <div style="width: 15%;" class="text-center">Số lượng</div>
+                    <div style="width: 15%;" class="text-center">Thành tiền</div>
+                </div>
+                <div class="tbody-popup scrollbar-dynamic">
+                </div>
+                <div class="tfoot-popup">
+                    <div class="tfoot-popup-1 a-right clearfix">
+                            <span class="total-p popup-total">Tổng tiền thanh toán: <span
+                                    class="total-price"></span></span>
+                    </div>
+                    <div class="tfoot-popup-2 clearfix">
+                        <a class="button buy_ btn-proceed-checkout" title="tiếp tục mua hàng" href="javascript:;"
+                           onclick="$('#popup-cart').modal('hide');"><span><span>Tiếp tục mua hàng</span></span></a>
+                        <a class="button checkout_ btn-proceed-checkout" title="Tiến hành thanh toán"
+                           href="cart.html"><span>Tiến hành thanh toán</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <a title="Close" class="quickview-close close-window" href="javascript:;"
+               onclick="$('#popup-cart').modal('hide');"><i class="fa  fa-close"></i></a>
+        </div>
+    </div>
+
+</div>
+<div id="myModal" class="modal fade" role="dialog"></div>
