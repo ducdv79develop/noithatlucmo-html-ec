@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-nd-noi-that.mysapo.net	TRUE	/	FALSE	1999999999	_landing_page	%2Frobots.txt
-nd-noi-that.mysapo.net	TRUE	/	FALSE	1999999999	samesite	none
-
